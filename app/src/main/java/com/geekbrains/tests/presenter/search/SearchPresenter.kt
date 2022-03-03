@@ -47,4 +47,12 @@ internal class SearchPresenter internal constructor(
         viewContract.displayLoading(false)
         viewContract.displayError()
     }
+
+    override fun onAttach() {
+        TODO("Not yet implemented")
+    }
+
+    override fun onDetach() {
+        TODO("Not yet implemented")
+    }
 }
